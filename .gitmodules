@@ -1,0 +1,3 @@
+[submodule "3party"]
+	path = 3party
+	url = https://h4me@github.com/h4me/3party.git
