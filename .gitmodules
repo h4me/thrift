@@ -1,9 +1,0 @@
-[submodule "googletest"]
-	path = googletest
-	url = https://github.com/google/googletest.git
-
-
-
-[submodule "xmlparser"]
-	path = xmlparser
-	url = https://github.com/h4me/xmlparser.git
