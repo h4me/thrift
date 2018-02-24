@@ -3,17 +3,8 @@
 
 git submodule update --init
 
-cd 3party
-my=`pwd`
-tar -xvf cmake-3.10.2-Linux-x86_64.tar.gz 
-cmake_path=$my/cmake-3.10.2-Linux-x86_64
 
-tar -xvf go1.10.linux-amd64.tar.gz 
-go_path=$my/go
 
-cd ..
-echo "export PATH=$cmake_path:$go_path/bin/:$PATH" > bash_source 
-echo "export GOROOT=$go_path" >> bash_source 
-echo "export GOPATH="`pwd`/xmlparser >> bash_source 
+
 
 
