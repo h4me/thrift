@@ -7,3 +7,11 @@
 [submodule "xmlparser"]
 	path = xmlparser
 	url = https://github.com/h4me/xmlparser.git
+
+
+
+[submodule "3party"]
+	path = 3party
+	url = https://github.com/h4me/3party.git
+
+
